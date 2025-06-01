@@ -443,3 +443,4 @@ bench --site hrms.local add-to-hosts
 bench --site aalwa.local install-app hrms
 bench --site aalwa.local export-fixtures
 
+bench init --version version-12 frappe-bench3 --install-app erpnext
