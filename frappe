@@ -444,3 +444,20 @@ bench --site aalwa.local install-app hrms
 bench --site aalwa.local export-fixtures
 
 bench init --version version-12 frappe-bench3 --install-app erpnext
+
+
+docker -v
+    5  docker image ls
+    6  docker run redis
+    7  docker stop redis
+    9  docker ps -a
+    14  docker stop 780977661c8f
+    18  docker rm 38f7bb6355d7 e73867307bfe ad08ee9769ec 0b392c8df501 bee1f7b1249a 780977661c8f 7fe54db9c6dd
+     24  docker rmi edbfe74c41f8
+   25  docker pull nginx:1.14-alpine
+   27  docker run -d --name webapp  nginx:1.14-alpine  
+   38  docker rmi redis mysql kodekloud/simple-webapp-mysql kodekloud/simple-webapp
+
+bench get-app https://github.com/frappe/wiki
+$ bench --site development.localhost install-app wiki
+
